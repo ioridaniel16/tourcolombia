@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TOURCOLOMBIA | LA REVISTA</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/magazine.css" media="all">
+
+</head>
+<body>
+
+  <div id="magazine-component" class="fullscreen-active">
+    <div class="wrapper">
+
+      <div id="content">
+        <div class="grid-view-wrapper">
+          <a class="nav left arrow" href="#"></a>
+          <a class="nav right arrow" href="#"></a>
+          <div class="grid-view">
+            <div class="container"></div>
+
+            <ul>
+
+              <li>
+                <a href="#page-0">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <div class="thumb-img"></div>
+                      <img class="thumb-img" src="images/thumbs/p1.jpg">
+                    </div>
+                    <span class="grid-index">1</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-2">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p2.jpg">
+                      <img class="thumb-img" src="images/thumbs/p3.jpg">
+                    </div>
+                    <span class="grid-index">2 - 3</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-4">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p4.jpg">
+                      <img class="thumb-img" src="images/thumbs/p5.jpg">
+                    </div>
+                    <span class="grid-index">4 - 5</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-6">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p6.jpg">
+                      <img class="thumb-img" src="images/thumbs/p7.jpg">
+                    </div>
+                    <span class="grid-index">6 - 7</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-8">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p8.jpg">
+                      <img class="thumb-img" src="images/thumbs/p9.jpg">
+                    </div>
+                    <span class="grid-index">8 - 9</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+              <li>
+                <a href="#page-10">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p10.jpg">
+                      <img class="thumb-img" src="images/thumbs/p11.jpg">
+                    </div>
+                    <span class="grid-index">10 - 11</span>
+                  </div>
+                </a>
+              </li>
+                                                              
+                                                            
+              <li>
+                <a href="#page-100">
+                  <div class="item">
+                    <div class="thumb">
+                      <div class="thumb-shadow"></div>
+                      <img class="thumb-img" src="images/thumbs/p12.jpg">
+                      <div class="thumb-img"></div>
+                    </div>
+                    <span class="grid-index">12</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="catalogue-wrapper">
+          <!-- 
+            Assets set with the imageurl attribute will be loaded on demand.
+            The only one that requires the initial background-image style is 
+            page 2 which extracts the aspect ratio data.
+          -->
+          <div id="catalogue">
+            <div page="1" imageurl="images/pages/p1.jpg" style="background-image:url(images/pages/p1.jpg);"></div>
+            <div page="2" imageurl="images/pages/p2.jpg" style="background-image:url(images/pages/p2.jpg);"></div>
+            <div page="3" imageurl="images/pages/p3.jpg" style="background-image:url(images/pages/p3.jpg);"></div>
+            <div page="4" imageurl="images/pages/p4.jpg" style="background-image:url(images/pages/p4.jpg);"></div>
+            <div page="5" imageurl="images/pages/p5.jpg" style="background-image:url(images/pages/p5.jpg);"></div>
+            <div page="6" imageurl="images/pages/p6.jpg"></div>
+            <div page="7" imageurl="images/pages/p7.jpg"></div>
+            <div page="8" imageurl="images/pages/p8.jpg"></div>
+            <div page="9" imageurl="images/pages/p9.jpg"></div>
+            <div page="10" imageurl="images/pages/p10.jpg"></div>
+            <div page="11" imageurl="images/pages/p11.jpg"></div>
+            <div page="12" imageurl="images/pages/p12.jpg"></div>
+          </div>
+
+          <div class="shadows" style="display:none;">
+            <img class="left-shadow" src="images/spreadShadowLeft.png">
+            <img class="right-shadow" src="images/spreadShadowRight.png">
+          </div>
+        </div>
+
+      </div><!-- end content -->
+
+
+      
+      </div>
+
+      <div class="footer">
+        <div class="footer-wrap">
+          <div class="ie-logo"></div>
+          <div class="view-control-tabs">
+            
+            <div data-type="spread" class="spread"></div>
+            <div data-type="fullscreen" class="fullscreen"></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end wrapper -->
+  </div><!-- end magazine-component -->
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libraries/jquery-1.7.2.min.js">\x3C/script>')</script>
+  <script type="text/javascript" src="js/libraries/jquery.ba-throttle-debounce.min.js"></script>
+  <script type="text/javascript" src="js/libraries/turn.js"></script>
+
+  <script type="text/javascript" src="js/components/fakePages.js"></script>
+  <script type="text/javascript" src="js/components/productMask.js"></script>
+  <script type="text/javascript" src="js/components/productList.js"></script>
+  <script type="text/javascript" src="js/components/productHotspots.js"></script>
+  <script type="text/javascript" src="js/views/spreadView.js"></script>
+  <script type="text/javascript" src="js/views/gridView.js"></script>
+  <script type="text/javascript" src="js/views/fullscreenView.js"></script>
+
+  <script type="text/javascript" src="js/productModel.js"></script>
+  <script type="text/javascript" src="js/pageController.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>
